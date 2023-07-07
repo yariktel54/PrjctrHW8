@@ -43,7 +43,7 @@
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 90px 1fr 1fr 1fr 1fr;
 }
 
 
@@ -170,6 +170,12 @@ p {
     opacity: 0.8500000238418579;
     margin: 50px 0px 30px 0px;
     }
+.t_invest_container {
+    margin-top: 150px;
+}
+.form_money {
+    margin-top: 362px;
+}
 
 
 /* HEADER ALL */
@@ -582,6 +588,13 @@ input:checked + .amount {
 @media screen and (max-width: 1224px) {
 
 
+    /* MAIN */
+
+    main {
+        grid-template-rows: 1fr 1fr 90px 1fr 1fr 1fr;
+    }
+
+
     /* HEADER */
 
     .menu_schools {
@@ -768,7 +781,7 @@ input:checked + .amount {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(7, 1fr);
+        grid-template-rows: 1fr 180px 1fr 1fr 1fr;
         /* background-color: rebeccapurple; */
     }
 
@@ -846,7 +859,7 @@ input:checked + .amount {
 
     .t_program {
         height: 691px;
-        grid-row: span 2;
+        grid-row: span 1;
     }
     .desktop_only {
         display: none;
@@ -869,7 +882,9 @@ input:checked + .amount {
         /* display: flex; */
         display: block;
     }
-
+    .form_money {
+        margin-top: 0px;
+    }
     /* MENU */
 
     /* .left_menu {
