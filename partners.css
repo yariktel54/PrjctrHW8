@@ -43,7 +43,7 @@
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
 
@@ -768,7 +768,7 @@ input:checked + .amount {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(15, 1fr);
+        grid-template-rows: repeat(7, 1fr);
         /* background-color: rebeccapurple; */
     }
 
