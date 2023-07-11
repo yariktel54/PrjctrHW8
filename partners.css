@@ -43,7 +43,7 @@
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 90px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 90px 1fr 1fr 1fr 1fr;
 }
 
 
@@ -59,7 +59,7 @@ body {
 .t_program {
     position: relative; 
     grid-column: span 2;
-    grid-row: span 2;
+    grid-row: span 1;
 }
 .txt_center_all {
     display: flex;
@@ -79,7 +79,7 @@ body {
     position: relative; 
     background-color: white;
     grid-column: span 2;
-    grid-row: span 2;
+    grid-row: span 1;
 }
 .bttn_deactivated { 
     grid-column: span 2;
@@ -588,7 +588,7 @@ input:checked + .amount {
     /* MAIN */
 
     main {
-        grid-template-rows: 1fr 1fr 90px 1fr 1fr 100px;
+        grid-template-rows: 1fr 90px 1fr 1fr 100px;
     }
 
 
